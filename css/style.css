@@ -1,0 +1,123 @@
+  body {
+    font-size: 32px; 
+    text-align: center;
+  }
+
+  #granContenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  #dropzone {
+    top: 150px;
+    width: 200px;
+    height: 200px;
+    background: cyan;
+    border: solid 1px;
+  }
+
+  #contenedor{
+     display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  }
+
+  .circulo {
+    width: 120px;
+    height: 120px;
+    border-radius: 2000px;
+    background-color: green;
+     margin-right:50px;
+  }
+
+.rectangulo
+           {
+        
+              width:130px;
+              height:80px;
+              background-color:#7EB4FC;
+
+            
+      margin-right:50px;
+     margin-top: 70px;
+  }
+ .huevo {
+      display:block;
+   width: 126px;
+   height: 180px;
+   background-color: red;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+      margin-right:50px;
+      margin-top: 90px;
+
+}
+
+.cuadrado{
+     width: 100px; 
+     height: 100px; 
+     border: 3px solid #555;
+     background: #428bca;
+     margin-right:50px;
+     margin-top: 40px;
+}
+
+  #contenedor2{
+    display: flex;
+   flex-direction: column;
+
+  }
+ .circuloV {
+    width: 120px;
+    height: 120px;
+    border-radius: 2000px;
+    background-color: #D0C8C6;
+    margin-left: 100px;
+         margin-top: 70px;
+
+    
+  }
+
+.rectanguloV
+           {
+        
+              width:130px;
+              height:80px;
+              background-color:#D0C8C6;
+
+            
+
+     margin-top: 60px;
+     margin-left: 100px;
+
+     
+  }
+ .huevoV {
+      display:block;
+   width: 126px;
+   height: 180px;
+   background-color: #D0C8C6;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+         margin-left: 100px;
+         margin-top: 70px;
+
+     
+
+}
+
+.cuadradoV{
+     width: 100px; 
+     height: 100px; 
+     border: 3px solid #555;
+     background: #D0C8C6;
+         margin-left: 100px;
+
+     
+}
+
+#texto2{
+  text-align: center;
+  margin-right: 250px;
+}
